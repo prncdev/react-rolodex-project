@@ -1,0 +1,10 @@
+.search-box {
+  outline: unset;
+  font-size: 1.025rem;
+  text-indent: 3px;
+  padding-block: 6px;
+  margin-block: 10px;
+  max-width: 12.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

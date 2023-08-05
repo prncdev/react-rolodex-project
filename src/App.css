@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Cantarell&family=Lato:wght@400;700&family=Oxygen:wght@300&family=Roboto+Flex:opsz@8..144&family=Ubuntu&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cantarell', 'Lato', 'Oxygen', 'Roboto Flex', 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: grayscale;
+
+  background: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
+  text-align: center;
+}
+
+.app-title {
+  /* margin-block-start: 60px; */
+  /* margin-block-end: 50px; */
+  color: #0ccac4;
+  font-size: 75px;
+  font-family: 'Bigelow Rules', cursive;
+}
