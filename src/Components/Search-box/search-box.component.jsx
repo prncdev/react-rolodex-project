@@ -6,7 +6,7 @@ class SearchBox extends Component {
     console.log(this.props);
     return (
       <input
-          className={`${ApplyStyle['search-box']} ${this.props.className}`}
+          className={`${ApplyStyle[this.props.className[1]]} ${this.props.className[0]}`}
           type='search'
           placeholder={this.props.placeholder}
           onChange={this.props.onChangeHandler}
