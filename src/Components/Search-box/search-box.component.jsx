@@ -3,6 +3,7 @@ import ApplyStyle from './search-box.style.module.css';
 
 class SearchBox extends Component {
   render() {
+    console.log(this.props);
     return (
       <input
           className={`${ApplyStyle['search-box']} ${this.props.className}`}
