@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import CardList from './Components/Card-list/card-list.component';
 import SearchBox from './Components/Search-box/search-box.component';
@@ -21,7 +21,10 @@ class App extends Component {
 
     this.setState(
       () => {
-        return { searchField } // when we assign variable to an object then whatt javascript will do is, it sets the key as the name of the variable name and as variable's value. Shorthand syntax.
+        return { searchField } // when we assign variable to an object then what javascript will do is, it sets the key name as the name of variable and value as variable's value. ES6 Shorthand syntax.
+
+        // Above statement same as below.
+        // return {searchField: searchField}
       },
 
       () => {
@@ -46,7 +49,7 @@ class App extends Component {
   render() {
     console.log('2');
     // state properties.
-    const {monsters, searchField } = this.state;
+    const { monsters, searchField } = this.state;
 
     // Class methods.
     const { searchMonster } = this;

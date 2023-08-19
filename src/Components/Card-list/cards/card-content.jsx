@@ -4,7 +4,7 @@ import ApplyStyle from './card-content.style.module.css';
 class CardContent extends Component {
 
   render() {
-    const { name, email, id } = this.props;
+    const { name, email, id } = this.props.monster;
     return (
       <div className={ApplyStyle['card-content']}>
         <img
