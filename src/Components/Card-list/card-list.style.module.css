@@ -5,3 +5,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
 }
+
+.card-list > h1 {
+  grid-column: span 4; /* Span across 2 columns */
+  padding-block: 10px;
+}
