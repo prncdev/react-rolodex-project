@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import SearchBoxHookComponent from './Components/Search-box/Search-Box.Hook-Comp';
 import CardListHookComponent from './Components/Card-list/Card-list.Hook-Comp';
