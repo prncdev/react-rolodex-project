@@ -1,4 +1,3 @@
-import React from 'react';
 import ApplyStyle from './card-list.style.module.css';
 import CardContentHookComponent from './cards/Card-Content.Hook-Comp';
 

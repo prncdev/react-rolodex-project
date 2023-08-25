@@ -1,4 +1,3 @@
-import React from 'react';
 import ApplyStyle from './search-box.style.module.css';
 
 function SearchBoxHookComponent(props) {

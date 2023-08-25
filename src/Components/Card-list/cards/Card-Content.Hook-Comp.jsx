@@ -1,4 +1,3 @@
-import React from 'react';
 import ApplyStyle from './card-content.style.module.css';
 
 function CardContentHookComponent({ monster }) {
